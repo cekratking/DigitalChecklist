@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace DigitalChecklist
+namespace DigitalChecklist.Views.Controls
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for FundControl.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class FundControl : UserControl
     {
-        public MainWindow()
+        public FundControl()
         {
             InitializeComponent();
         }
